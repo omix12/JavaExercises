@@ -12,19 +12,17 @@ public class Container {
 
     public void add(int amount) {
         if (amount > 0) {
-            container += amount;
-            if ((contains() + amount > 100)) {
-                container = 100;
-            }
+            container = contains() + amount > 100
+                    ? 100
+                    : (container+=amount);
         }
     }
 
     public void remove(int amount) {
         if (amount > 0) {
-            container -= amount;
-            if ((contains() - amount < 0)) {
-                container = 0;
-            }
+            container = contains() - amount < 0
+                    ? 0
+                    : (container-=amount);
         }
     }
 

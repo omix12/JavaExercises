@@ -24,28 +24,28 @@ public class LiquidContainers2 {
 
             String[] parts = input.split(" ");
             String command = parts[0];
-            int inputValue = Integer.valueOf(parts[1]);
+            int inputValue = Integer.parseInt(parts[1]);
 
-            if (inputValue > 0) {
+            switch (command) {
 
-                if (command.equals("add")) {
+                case "add":
                     first.add(inputValue);
-                } else if (command.equals("move")) {
+                    break;
 
+                case "move":
                     if (inputValue > first.contains()) {
                         inputValue = first.contains();
-                        first.container = 0;
-                    } else {
-                        first.remove(inputValue);
                     }
 
+                    first.remove(inputValue);
                     second.add(inputValue);
+                    break;
 
-                } else if (command.equals("remove")) {
+                case "remove":
                     second.remove(inputValue);
-                }
-
+                    break;
             }
+
         }
     }
 
