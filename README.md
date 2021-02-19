@@ -5,7 +5,7 @@ Source for Java exercises from various destinations.
 
 ### TMC Projects 
 
-Exercises from: [University of Helsinki MOOC](https://java-programming.mooc.fi)
+Exercises from -> [University of Helsinki MOOC](https://java-programming.mooc.fi)
 
 
 <br></br>
