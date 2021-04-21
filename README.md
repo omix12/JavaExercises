@@ -27,7 +27,16 @@ Here, at the beginning of your programmer’s path, you will need a console bot 
 
 As you move through the project, you’ll install Java on your machine and learn to work in a professional development environment. You’ll get to know the basic syntax of Java and write a simple program using variables, conditions, loops, and methods.
 
+<br></br>
 
+LeetCode
+========
+
+### LeetCode Algorithm
+
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|1|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Java](./LeetCode/RemoveDuplicatesFromSortedArray.java)|Easy|
 
 <br></br>
 <br></br>
