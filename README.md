@@ -37,6 +37,8 @@ LeetCode
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Java](./LeetCode/RemoveDuplicatesFromSortedArray.java)|Easy|
+|2|[  Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](./LeetCode/BestTimeToBuyAndSellStock2.java)|Easy|
+
 
 <br></br>
 <br></br>
